@@ -10,7 +10,7 @@ The repository is organized into two main sub-projects:
     * `processdata.py`: Script for preprocessing the raw data (e.g., BPIC 2019 CSVs) and saving processed data/vocabulary files (`processed_data.pt`, `vocab_info.pt`).
     * `train.py`: Script for training the standard BART-like model using the preprocessed data. Saves the best model weights (`best_model.pth`) and training checkpoints.
     * `test.py`: Script for evaluating the best saved standard BART-like model (`best_model.pth`) on the test set.
-    * `Bart-like Sutran.py`: (Possibly an older, monolithic version of the code - you might want to clarify or remove this if `train.py` contains the model definition).
+    * `Bart-like Sutran.py`: 
 
 * **`Bart_ROPE/`**: Contains the implementation of a BART-like model enhanced with Rotary Positional Embeddings (RoPE).
     * `process_data.py`: Script for preprocessing raw data (similar to the one above, but potentially specific naming). Saves `processed_data_rope.pt`, `vocab_info_rope.pt`.
