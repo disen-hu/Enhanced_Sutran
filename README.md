@@ -2,6 +2,9 @@
 
 This repository contains implementations of BART-like models for predicting subsequent events and timestamps in business process event logs, likely using the BPIC 2019 dataset as a basis. Two main approaches are explored: one using standard learned positional embeddings and another using Rotary Positional Embeddings (RoPE).
 
+Due to the network problem, trained models weights are not uploaded.
+They will all be upploaded later in Google Drive.
+
 ## Folder Structure
 
 The repository is organized into two main sub-projects:
@@ -17,7 +20,7 @@ The repository is organized into two main sub-projects:
     * `train_Bart_ROPE.py`: Script for training the RoPE BART model using its specific preprocessed data. Saves the best model weights (`rope_best_model.pth`) and checkpoints (`rope_checkpoints/`).
     * `test_rope.py`: Script for evaluating the best saved RoPE BART model (`rope_best_model.pth`) on the test set.
 
-**Note:** Raw data files (e.g., `.csv`) and potentially large processed files (`.pt`, `.pth`) are likely excluded via the `.gitignore` file and are not present in this repository.
+
 
 ## Requirements
 
