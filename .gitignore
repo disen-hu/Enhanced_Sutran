@@ -1,0 +1,42 @@
+# Ignore PyTorch model files and checkpoints
+*.pt
+*.pth
+
+# Ignore CSV data files
+*.csv
+
+# --- Optional but Recommended Ignores ---
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment folders (adjust if you use a different name)
+venv/
+.venv/
+env/
+.env/
+
+# IDE configuration folders
+.vscode/
+.idea/
+
+# Distribution / build artifacts
+build/
+dist/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files (if any)
+*.log
+
+# You might also want to ignore specific large data folders if they
+# contain raw or intermediate data you don't need in the repo.
+# For example:
+# BPIC_19/
+# BPIC_19_processed/
+# bart_sutran_checkpoints_v3/
+# bart_sutran_checkpoints_v3_tuples/
