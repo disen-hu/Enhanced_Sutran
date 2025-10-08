@@ -20,3 +20,23 @@
 ## Enable nucleus sampling:
   - decoding_strategy="nucleus" , set top_p = 0.3 for example 
 
+# Folder information
+
+## Visulation
+Visualizes datasets and results; includes plot scripts and sample PNGs for prefix/suffix metrics and model performance
+
+## OneStepAheadBenchmarks
+
+ Benchmarks one‑step‑ahead tasks (next activity and time) with inference/training procedures, environments, and utilities to evaluate decoding strategies.
+
+ ## Preprocessing 
+ Prepares raw event logs into model‑ready tensors, handling categorical mapping, prefix/suffix construction, numerical feature treatment, normalization, and serialization
+
+
+
+ # how to use
+
+ use create_////_.py file to generate prefix suffix pairs as train -test split
+
+ use TRAIN_EVAL_(model name).py file to start train and evaluate the performance on exact dataset.
+ 
